@@ -31,6 +31,13 @@
     background: #212121;
 }
 
+.disclaimer {
+    color: #A8A29E;
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
 nav{
     display: flex;
     width: 84%;
