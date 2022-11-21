@@ -4,6 +4,26 @@
     font-family: sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #212121; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    /*originally #555*/
+    background: #2aa670; 
+  }
+
 .buynoww {
         background-color: #4CAF50; /* Green */
             border: none;
@@ -135,8 +155,7 @@ span{
 .icon-logo {
     height: 4.5%;
     position: absolute;
-    left: 120;
-    bottom: 1025;
+    margin: 30 20 20px;
     border-radius: 1100px;
 }
 
