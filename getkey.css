@@ -64,3 +64,18 @@ nav ul li a:hover{
     margin: 30 20 20px;
     border-radius: 1100px;
 }
+
+.g-recaptcha {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.captchabg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  background-color: #315536;
+}
