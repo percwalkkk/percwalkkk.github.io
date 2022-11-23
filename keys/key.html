@@ -9,7 +9,7 @@
                         <form>
                             <br>
                             <div class="form-group" style="margin-top: 50%; transform: translateY(-50%);">
-                                <input type="text" class="form-control" name="uIn1" value="random ahhh key frrrrrrr" placeholder=""><small class="form-text text-muted text-center">By using this key you agree to our <a href="terms.html">Terms of Service</a>. Breaking any of these rules will result in a ban.</small><small class="form-text text-muted text-center">Do not try to share this key.</small>
+                                <p type="text" class="form-control" name="uIn1" style="height: 23px;" placeholder="" id="keyoutput">irue84fUsjwi35IusiwU8fj&djr84j3fjYE4925IRU49v9Ny76Gj59j</p><small class="form-text text-muted text-center">By using this key you agree to our <a href="terms.html">Terms of Service</a>. Breaking any of these rules will result in a ban.</small><small class="form-text text-muted text-center">Do not try to share this key.</small>
                             </div>
                         </form>
                     </div>
@@ -17,6 +17,19 @@
             </section>
         </main>
     </div>
+    <script>
+        document.getElementById('keyoutput').innerHTML = create_random_string()
+        function create_random_string(){
+            var random_string = '';
+            var characters = 'AB1D2FGH3JKLMNO4Q5TUVWXYZab6d7fgh8jklmno9q0tuvwxyz'
+            for(var i, i = 0; i < 31; i++){
+                random_string += characters.charAt(Math.floor(Math.random() * 31))
+            }
+                return random_string
+        }
+    </script>
+
+
         <style>
             
             *{
