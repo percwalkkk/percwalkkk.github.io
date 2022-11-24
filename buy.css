@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #212121; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    /*originally #555*/
+    background: #2aa670; 
+  }
+
+.buynoww {
+        background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            border-radius: .75rem;
+            width: 9rem;
+            font-weight: 700;
+            transition: 0.3s;
+}
+
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #212121;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: rgb(42, 170, 110);
+}
+
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+span{
+    color: rgb(42, 170, 110);
+}
+
+.detel p{
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+}
+
+
+/*
+    background: #15803d;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    #212121
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+*/
+
+.detel a:hover{
+    opacity: 0.7;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px ;
+}
+
+.images img{
+    height: 80%;
+    position: absolute;
+    left: 65%;
+    bottom: 120;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+    border-radius: 1100px;
+}
+
+.icon-logo {
+    height: 4.5%;
+    position: absolute;
+    margin: 30 20 20px;
+    border-radius: 1100px;
+}
+
+.images img:hover{
+    left: 45%;
+}
+
+.topb {
+    margin-bottom: -55;
+}
+
+.discord {
+    background-color: #444dc5;
+    border: none;
+    /*padding: 14px 17px;*/
+    text-align: center;
+    font-size: 12px;
+    border-radius: .5rem;
+    width: 20px;
+    height: 22px;
+    transition: 0.3s;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    display:inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    /**/
+    background-image: url(https://media.discordapp.net/attachments/992643364224782386/1039626127427260497/625e5fcef7ab80b8c1fe559e_Discord-Logo-Color2.png?width=192&height=216);
+}
+.discord:hover {opacity: 0.7}
+
+.cashappb {
+    background-color: #00d632;
+    border: none;
+    /*padding: 14px 17px;*/
+    text-align: center;
+    font-size: 12px;
+    border-radius: .5rem;
+    width: 20px;
+    height: 22px;
+    transition: 0.3s;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    /**/
+    background-image: url(https://cdn.discordapp.com/attachments/1019763179657637959/1045177790913314848/white_cashapp_logo.png);
+}
+
+.paypalb {
+    background-color: #f4f4f4;
+    border: none;
+    /*padding: 14px 17px;*/
+    text-align: center;
+    font-size: 12px;
+    border-radius: .5rem;
+    width: 20px;
+    height: 22px;
+    transition: 0.3s;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    /**/
+    background-image: url(https://media.discordapp.net/attachments/1019763179657637959/1045180721574195310/emblem-Paypal1.png?width=553&height=553);
+}
+
+.bitcoinb {
+    background-color: #f4f4f4;
+    border: none;
+    /*padding: 14px 17px;*/
+    text-align: center;
+    font-size: 12px;
+    border-radius: .5rem;
+    width: 20px;
+    height: 22px;
+    transition: 0.3s;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    /**/
+    background-image: url(https://cdn.discordapp.com/attachments/1019763179657637959/1045180988059299911/emblem-Paypal2.png);
+}
+
+.cardb {
+    background-color: #48429d;
+    border: none;
+    /*padding: 14px 17px;*/
+    text-align: center;
+    font-size: 12px;
+    border-radius: .5rem;
+    width: 20px;
+    height: 22px;
+    transition: 0.3s;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    /**/
+    background-image: url(https://cdn.discordapp.com/attachments/1019763179657637959/1045190069797011537/depositphotos_209524460-stock-illustration-credit-card-icon-vector-isolated.png);
+}
+
+.nitrob {
+    background-color: #7594de;
+    border: none;
+    /*padding: 14px 17px;*/
+    text-align: center;
+    font-size: 12px;
+    border-radius: .5rem;
+    width: 20px;
+    height: 22px;
+    transition: 0.3s;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    /**/
+    background-image: url(https://cdn.discordapp.com/attachments/1019763179657637959/1045210110638702642/3813e13cf3e89eb5ab314dcda58f5d96.png);
+}
+
+.nitroboostb {
+    background-color: #8647c6;
+    border: none;
+    /*padding: 14px 17px;*/
+    text-align: center;
+    font-size: 12px;
+    border-radius: .5rem;
+    width: 20px;
+    height: 22px;
+    transition: 0.3s;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    /**/
+    background-image: url(https://cdn.discordapp.com/attachments/1019763179657637959/1045210844763533332/3813e13cf3e89eb5ab314dcda58f5d962.png);
+}
+
+.selectapo {
+    margin-top: 20px;
+    margin-bottom: -20;
+}
