@@ -72,6 +72,14 @@ nav ul li a:hover{
   transform: translate(-50% , -50%);
 }
 
+.g-button {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  width: 100px;
+}
+
 .captchabg {
   position: absolute;
   top: 50%;

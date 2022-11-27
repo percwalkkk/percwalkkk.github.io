@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="stylesheet" href="getkey.css">
         <title>percsploit Key</title>
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -20,17 +19,18 @@
                 <li><a href="#">Other Services</a></li>
             </ul>
         </nav>
-        <form action="?" method="POST">
-            <div class="g-recaptcha" data-sitekey="6LfkCiIjAAAAAH89Czz9e4o5S2TxVf0fEA_9tGGN" data-theme="dark" data-callback="captchaVerified"></div>
+        <form action="/getkey" method="POST">
+            <div class="g-recaptcha" name="verifyy" data-sitekey="6LfkCiIjAAAAAH89Czz9e4o5S2TxVf0fEA_9tGGN" data-theme="dark" data-callback="captchaVerified"></div>
             <br/>
           </form>
 
         </div>
     </body>
-</html>
 
-<script>
-        function captchaVerified() {
+    <script>
+            function captchaVerified() {
            location.replace("https://link-target.net/543396/percsploit-key")
-        }
+            }
     </script>
+
+</html>
