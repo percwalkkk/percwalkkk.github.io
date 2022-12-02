@@ -75,7 +75,7 @@ nav{
     display: flex;
     width: 84%;
     margin: auto;
-    padding: 20px 0;
+    padding: 20px 20px 20px 25%;
     align-items: center;
     justify-content: space-between;
     font-family: 'Archivo Black', sans-serif;
