@@ -11,9 +11,19 @@
 <body>
     <div class="hero">
         <div class="login-box">
-            <button class="login-button"></button>
+            <button class="login-button" onclick="redirectToOAUTH()"></button>
+            <p class="information">Login to access your dashboard and utilities</p>
+            <img class="percsploitimg" src="https://cdn.discordapp.com/attachments/1023011499788210216/1041030955781083306/494a371629a6f817a3148f7b86d1932a11.png" alt="prcsploitimg">
+
         </div>
     </div>
+
+    <script>
+        function redirectToOAUTH() {
+            location.replace('https://discord.com/api/oauth2/authorize?client_id=1002155014611025940&redirect_uri=http%3A%2F%2Flocalhost%3A53134%2Fauth%2Fdiscord&response_type=token&scope=identify%20email')
+        }
+    </script>
+    
 </body>
 
 </html>
