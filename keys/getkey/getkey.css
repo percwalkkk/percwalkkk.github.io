@@ -35,13 +35,14 @@
 }
 
 nav{
-    display: flex;
-    width: 84%;
-    margin: auto;
-    padding: 20px 0;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Archivo Black', sans-serif;
+    
+  width: 84%;
+  margin: auto;
+  position: relative;
+  top: 1.5cm;
+  text-align: center;
+  justify-content: space-between;
+  font-family: 'Archivo Black', sans-serif;
 }
 
 nav ul li{
@@ -61,12 +62,6 @@ nav ul li a:hover{
     color: rgb(42, 170, 110);
 }
 
-.icon-logo {
-    height: 4.5%;
-    position: absolute;
-    margin: 30 20 20px;
-    border-radius: 1100px;
-}
 
 .g-recaptcha {
   position: absolute;
