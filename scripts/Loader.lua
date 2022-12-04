@@ -8,7 +8,7 @@ local Games = {
     [4851363266] = "", -- mypark
     [7899881670] = "", -- rbw4
     [9049840490] = "", -- sonic speed simulator
-    [4779613061] = "", -- south london 2
+    [4779613061] = "https://raw.githubusercontent.com/percwalkkk/paid/main/south%20london%202", -- south london 2
     [1] = "universal"
 
 }
