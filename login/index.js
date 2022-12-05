@@ -13,4 +13,4 @@ app.get('/auth/discord', (request, response) => {
 });
 
 const port = '53134';
-app.listen(port, () => console.log(`App listening at http://localhost:${port}`));
+app.listen('percsploit.xyz', () => console.log(`App listening at http://localhost:${port}`));
